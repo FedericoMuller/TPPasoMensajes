@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiService", "RestApiService\RestApiService.csproj", "{2FD3D79E-1B1E-453B-801D-4DE1DC6B9FE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApiClient", "RestApiClient\RestApiClient.csproj", "{F35F7913-18A6-4085-8324-AA715ACB4FEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yaml = docker-compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FD3D79E-1B1E-453B-801D-4DE1DC6B9FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD3D79E-1B1E-453B-801D-4DE1DC6B9FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD3D79E-1B1E-453B-801D-4DE1DC6B9FE6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2FD3D79E-1B1E-453B-801D-4DE1DC6B9FE6}.Debug|x64.Build.0 = Debug|Any CPU
+		{2FD3D79E-1B1E-453B-801D-4DE1DC6B9FE6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2FD3D79E-1B1E-453B-801D-4DE1DC6B9FE6}.Debug|x86.Build.0 = Debug|Any CPU
+		{2FD3D79E-1B1E-453B-801D-4DE1DC6B9FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD3D79E-1B1E-453B-801D-4DE1DC6B9FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD3D79E-1B1E-453B-801D-4DE1DC6B9FE6}.Release|x64.ActiveCfg = Release|Any CPU
+		{2FD3D79E-1B1E-453B-801D-4DE1DC6B9FE6}.Release|x64.Build.0 = Release|Any CPU
+		{2FD3D79E-1B1E-453B-801D-4DE1DC6B9FE6}.Release|x86.ActiveCfg = Release|Any CPU
+		{2FD3D79E-1B1E-453B-801D-4DE1DC6B9FE6}.Release|x86.Build.0 = Release|Any CPU
+		{F35F7913-18A6-4085-8324-AA715ACB4FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F35F7913-18A6-4085-8324-AA715ACB4FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F35F7913-18A6-4085-8324-AA715ACB4FEB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F35F7913-18A6-4085-8324-AA715ACB4FEB}.Debug|x64.Build.0 = Debug|Any CPU
+		{F35F7913-18A6-4085-8324-AA715ACB4FEB}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F35F7913-18A6-4085-8324-AA715ACB4FEB}.Debug|x86.Build.0 = Debug|Any CPU
+		{F35F7913-18A6-4085-8324-AA715ACB4FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F35F7913-18A6-4085-8324-AA715ACB4FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F35F7913-18A6-4085-8324-AA715ACB4FEB}.Release|x64.ActiveCfg = Release|Any CPU
+		{F35F7913-18A6-4085-8324-AA715ACB4FEB}.Release|x64.Build.0 = Release|Any CPU
+		{F35F7913-18A6-4085-8324-AA715ACB4FEB}.Release|x86.ActiveCfg = Release|Any CPU
+		{F35F7913-18A6-4085-8324-AA715ACB4FEB}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F03A879E-BC53-4029-A4CA-60DFF09E8E35}
+	EndGlobalSection
+EndGlobal

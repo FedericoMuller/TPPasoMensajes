@@ -1,0 +1,15 @@
+services:
+  restapi:
+    build:
+        context: .
+        dockerfile: RestApiService/Dockerfile
+    container_name: restapi
+    ports:
+      - "5000:8080"
+  client:
+    build: 
+        context: .
+        dockerfile: RestApiClient/Dockerfile
+    container_name: restapi-client
+    depends_on:
+      - restapi
